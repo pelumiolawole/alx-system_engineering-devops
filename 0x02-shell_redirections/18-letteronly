@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -1 --file-type [aA-zZ] | grep -v /$
+ls -1 --file-type [a-z] | grep -v
