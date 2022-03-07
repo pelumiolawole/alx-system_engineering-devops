@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -1 --file-type [a-z] | grep -v
+find . -maxdepth 1 -type f -iname 'a-z'
